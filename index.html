@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top my-0">
+            <div class="container">
+                <a class="navbar-brand brand" href="#index.html"><span class="text-danger">f</span>ashion</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offer">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#topproduct">New Trend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- section home  -->
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner-1">
+                        <div class="info">
+                            <h3 class="text-danger">Sale 20% Off</h3>
+                            <h1>On Everything</h1>
+
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner-2">
+                        <div class="info">
+                            <h3 class="text-danger">Sale 80% Off</h3>
+                            <h1>On Jean</h1>
+                            <button class="btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="box-details">
+                        <div class="info">
+                            <i class="bi bi-check-lg"></i>
+                            <span>Good Quality</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="box-details text-center">
+                        <div class="info">
+                            <i class="bi bi-truck"></i>
+                            <span>Free Shipping</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="box-details">
+                        <div class="info">
+                            <i class="bi bi-arrow-left-right"></i>
+                            <span>14-Day Return</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="box-details">
+                        <div class="info">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product section  -->
+    <section id="product">
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+                            <span>Sale</span>
+                            <img src="./img/product1.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product1back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Kushal K</h5>
+                            <p>Women Kurta Set with Dupatta</p>
+                            <h6>$35 <del>$51</del></h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+                            <span>Sale</span>
+                            <img src="./img/product2.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product2back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Nayo</h5>
+                            <p>Women Kurta Set with Trouser</p>
+                            <h6>$45 <del>$78</del></h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <img src="./img/product3.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product3back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Indo Era</h5>
+                            <p>Women Yoke Design Kurta</p>
+                            <h6>$78</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <img src="./img/product1a.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product1aback.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Indo Era</h5>
+                            <p>Women Yoke Design Kurta</p>
+                            <h6>$78</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+                            <span>Sale</span>
+                            <img src="./img/product4.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product4back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Mitra</h5>
+                            <p>Woven Design Kajevaram Saree</p>
+                            <h6>$35 <del>$51</del></h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+                            <img src="./img/product5.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product5back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Kalini</h5>
+                            <p>Embilished Saree</p>
+                            <h6>$76</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <span>Sale</span>
+                            <img src="./img/product6.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product6back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Rajnidini</h5>
+                            <p>Woven Design Saree</p>
+                            <h6>$78 <del>$99</del></h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <img src="./img/product2a.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product2aback.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Anouk</h5>
+                            <p>Floral Printed Saree</p>
+                            <h6>$78</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+                            <span>Sale</span>
+                            <img src="./img/product7.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product7back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>House of Pataudi</h5>
+                            <p>Men Solid Vowen Kurta</p>
+                            <h6>$35 <del>$51</del></h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center">
+                        <div class="product-img position-relative">
+
+                            <img src="./img/product8.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product8back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Hangup</h5>
+                            <p>Men solid Nehru Jacket</p>
+                            <h6>$65</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <img src="./img/product9.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product9back.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Deyann</h5>
+                            <p>Men solid Dupion silk Dhoti</p>
+                            <h6>$78</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-sm-5">
+                    <div class="product text-center position-relative">
+                        <div class="product-img">
+                            <img src="./img/product3a.jpg" alt="" class="img-fluid product-imgage-first">
+                            <img src="./img/product3aback.jpg" alt="" class="img-fluid product-imgage-second">
+                        </div>
+                        <div class="info">
+                            <h5>Kisah</h5>
+                            <p>Men Gray Blazzer</p>
+                            <h6>$78</h6>
+                            <div class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <i class="bi bi-bag-check-fill"><span>Add to Cart</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer section  -->
+    <section id="offer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row main-box position-relative">
+                        <div class="col-4">
+                            <img src="./img/offer-1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8">
+                            <div class="info text-center">
+                                <h5 class="text-danger">20% OFF THE ALL ORDER</h5>
+                                <h1>Spring Collection</h1>
+                                <button type="button" class="btn btn-outline-danger mt-2">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row main-box position-relative">
+                        <div class="col-8">
+                            <div class="infos text-center">
+                                <h5 class="text-danger">20% OFF THE ALL ORDER</h5>
+                                <h1>Winter Collection</h1>
+                                <button type="button" class="btn btn-outline-danger mt-2">Shop Now</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="./img/offer-2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section arrival  -->
+    <section id="arrival">
+        <div class="container">
+            <div class="row arrival">
+                <div class="col-lg-6 col-sm-12">
+                        <img src="./img/arrival.jpg" alt="..." class="img-fluid arrival-img">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h4>#NewArrival</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita quod
+                        architecto
+                        adipisci libero earum fuga! Aliquid, vel? Deserunt officia est suscipit voluptatum.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section product  -->
+    <section id="topproduct">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center my-5">Trandy- <span class="text-danger">Product</span></h1>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Polo T-shirt</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Dillinger</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">U.S Polo Assn.</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Roadster T-Shirt</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Roadster Cotton Shirt</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Dennis Lingo</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Campus Sutra Shirt</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-sm-5">
+                    <div class="card  overflow-hidden">
+                        <img src="./img/trend8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Wild West Shirt</h5>
+                            <h5>$89</h5>
+                            <i class="bi bi-eye-fill">View Details</i>
+                            <i class="bi bi-bag-check-fill">Add to Cart</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- counter section  -->
+    <section class="counter">
+        <div class="container">
+            <h1 class="text-center"> <span class="text-danger">Hurry Up</span> Offer <span
+                    class="text-warning">Closes</span> Soon</h1>
+            <ul class="list-unstyled countdown ms-5 my-5">
+                <li><span class="fs-1 d-block" id="day">00</span>Days</li>
+                <li><span class="fs-1 d-block" id="hour">00</span>Hours</li>
+                <li><span class="fs-1 d-block" id="min">00</span>Mins</li>
+                <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+            </ul>
+        </div>
+    </section>
+    <!-- section testimonial  -->
+    <section id="testimonial">
+        <div class="container text-center">
+            <h1 class="text-center my-5">Testimonial</h1>
+            <div id="carouselExampleIndicator" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/testo1.jpg" alt="">
+                        <h5>Anna Trevor</h5>
+                        <small>Customer</small>
+                        <p>Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis
+                            reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad
+                            labore modi voluptatibus accusantium sapiente nam! Quaerat.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/testo2.jpg" alt="">
+                        <h5>Dom Nik</h5>
+                        <small>Customer</small>
+                        <p>Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis
+                            reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad
+                            labore modi voluptatibus accusantium sapiente nam! Quaerat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="scrollup" title="Top to Scroll">
+
+        <a href="#home"> <i class="bi bi-arrow-up"></i></a>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
